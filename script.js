@@ -18,7 +18,6 @@ footer.addEventListener("click", function () {
 
 */
 
-
 ////////////////////////////////////F2////////////////////////////////////
 //TOGGLE MENU
 
@@ -40,11 +39,17 @@ navHead n'a pas la classe ("collapse") ? ---> classe ajoutée (= menu affiché)
 ////////////////////////////////////F3////////////////////////////////////
 //REDit BUTTON
 
-const firstCard = document.querySelector('.col-md-4 .card');
+const firstCard = document.querySelector(".col-md-4 .card");
 
-let editBtn = document.querySelector('.btn-outline-secondary');
+let editBtn = document.querySelector(".btn-outline-secondary");
 
-editBtn.addEventListener('click', function() {
-    firstCard.style.color = 'red';
+editBtn.addEventListener("click", function () {
+  firstCard.style.color = "red";
 });
 
+/* Mais dis donc Jamy, que fais-tu exactement ?
+
+---> On séléctionne la card et le bouton correspondant avec leurs classes respectives
+---> On lie l'event click sur le editBtn à une modification de la couleur du texte sur firstCard
+
+*/
