@@ -88,12 +88,10 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 > On écoutera l'event (survol du curseur) et selon le mouvement :
 
 
-> | card [`sélectionnée par index`] | action [`mouseover`] |
+> | card [`élément sélectionné par index`] | action [`mouseover`] |
 > | ------ | ----- |
-> | Modifications | - La carte sera redimensionnée à 80%.<br>- L'image sera > redimensionnée à 20%.<br>- Une transition d'animation d'une durée de 0.5s > sera appliquée.<br>- L'opacité du texte sera réduite à 0, le rendant invisible. |
+> | Modifications | - La carte sera redimensionnée à 80%.<br>- L'image sera redimensionnée à 20%.<br>- Une transition d'animation d'une durée de 0.5s sera appliquée.<br>- L'opacité du texte sera réduite à 0, le rendant invisible. |
 
-
-> | card [`sélectionnée par index`] | action [`mouseout`] |
+> | card [`élément sélectionné par index`] | action [`mouseout`] |
 > | ------ | ----- |
-> | Annulations | - La carte reprendra sa taille d'origine (100%).<br>-
-L'image reprendra sa taille d'origine.<br>- L'opacité du texte sera rétablie à 1, le rendant visible. |
+> | Annulations | - La carte reprendra sa taille d'origine (100%).<br>- L'image reprendra sa taille d'origine.<br>- L'opacité du texte sera rétablie à 1, le rendant visible. |
