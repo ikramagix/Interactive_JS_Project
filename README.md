@@ -1,4 +1,9 @@
-# Interactive JS : Mise en pratique 
+# Mise en pratique Javascript
+
+<div align="center">
+  <img src="michael-jackson-dance.gif" alt="Dance" width="300px"/>
+  <h1>Read it! Read it! Read it! Read it!</h1>
+</div>
 
 ## Introduction
 
