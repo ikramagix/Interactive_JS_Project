@@ -87,13 +87,20 @@ editBtnSecond.addEventListener("click", function () {
 ////////////////////////////////////F5////////////////////////////////////
 //Nuclear Power Plant
 
-const bootstrapLink = document.querySelector('link[rel="stylesheet"]');
-    //const bootstrapLink = document.querySelector('link[href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"]');
-document.addEventListener("dblclick", function () {
+const bootstrapLink = document.querySelector('head link[rel="stylesheet"]');
+const header = document.querySelector('header');
+
+header.addEventListener("dblclick", function () {
     if (bootstrapLink) {
         bootstrapLink.disabled = !bootstrapLink.disabled;
     }
 });
 
 /* Mais dis donc Jamy, que fais-tu exactement ?
+
+---> Je selectionne le lien de mon bootstrap par son attribut stylesheet
+---> Je selectionne la zone ou je souhaite que l'action s'effectue, et je la stocke dans une variable
+---> On applique l'eventListener sur un doubleclick sur le header
+---> 
+
 */
