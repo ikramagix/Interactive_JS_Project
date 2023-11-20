@@ -36,3 +36,15 @@ navHead n'a pas la classe ("collapse") ? ---> classe ajoutée (= menu affiché)
 
 ----> Chaque fois que le bouton est cliqué, la fonction est déclenchée.
 */
+
+////////////////////////////////////F3////////////////////////////////////
+//REDit BUTTON
+
+const firstCard = document.querySelector('.col-md-4 .card');
+
+let editBtn = document.querySelector('.btn-outline-secondary');
+
+editBtn.addEventListener('click', function() {
+    firstCard.style.color = 'red';
+});
+
