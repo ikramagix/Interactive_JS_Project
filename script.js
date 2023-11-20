@@ -83,3 +83,17 @@ editBtnSecond.addEventListener("click", function () {
 ---> Si non, définit la couleur en "green"
 
 */
+
+////////////////////////////////////F5////////////////////////////////////
+//Nuclear Power Plant
+
+const bootstrapLink = document.querySelector('link[rel="stylesheet"]');
+    //const bootstrapLink = document.querySelector('link[href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"]');
+document.addEventListener("dblclick", function () {
+    if (bootstrapLink) {
+        bootstrapLink.disabled = !bootstrapLink.disabled;
+    }
+});
+
+/* Mais dis donc Jamy, que fais-tu exactement ?
+*/
