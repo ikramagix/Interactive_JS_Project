@@ -99,6 +99,6 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 ---
 
 <div align="center">
-  <img src="michael-jackson-dance.gif" alt="Enjoy!" width="200"/>
+  <img src="michael-jackson-dance.gif" alt="Enjoy!" width="100vh"/>
   <h1>Enjoy!</h1>
 </div>
