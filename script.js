@@ -29,13 +29,6 @@ editBtnFirst.addEventListener("click", function () {
   firstCard.style.color = "red";
 });
 
-/* Mais dis donc Jamy, que fais-tu exactement ?
-
----> On séléctionne la card et le bouton correspondant avec leurs classes et index respectifs
----> On lie l'event click sur le editBtn à une modification de la couleur du texte sur firstCard
----> Pas de possibilité d'annuler le changement car pas de conditions comme en bas (if/else)
-
-*/
 
 ////////////////////////////////////F4////////////////////////////////////
 //Green Washing
@@ -51,23 +44,7 @@ editBtnSecond.addEventListener("click", function () {
   }
 });
 
-/* Mais dis donc Jamy, que fais-tu exactement ?
-
----> Même démarche qu'avant avec index[] pour la selection
----> On lie l'event click a une fonction qui va s'executer au click
-*/
-
-/* Mais dis donc Jamy, que pourquoi un "" vide ?
-
----> Une fois event click :
----> Verifie si la couleur est "green" ?
----> Si oui, ("") réinitialise la couleur du texte à la couleur par défaut (du CSS ou du browser)
----> Si non, définit la couleur en "green"
-
-*/
-
 ////////////////////////////////////F5////////////////////////////////////
-//Nuclear Power Plant
 
 const bootstrapLink = document.querySelector('head link[rel="stylesheet"]');
 const header = document.querySelector('header');
@@ -78,15 +55,7 @@ header.addEventListener("dblclick", function () {
     }
 });
 
-/* Mais dis donc Jamy, que fais-tu exactement ?
-
----> Je selectionne le lien de mon bootstrap par son attribut stylesheet
----> Je selectionne la zone ou je souhaite que l'action s'effectue, et je la stocke dans une variable
----> On applique l'eventListener sur un doubleclick sur le header
----> Si bootstraplink existe, alors...
----> Bascule l'état du lien entre activé et désactivé avec bootstrapLink.disabled = !bootstrapLink.disabled;
-
-*/
+////////////////////////////////////F6////////////////////////////////////
 
 const viewButtons = document.querySelectorAll('.btn-success');
 const cards = document.querySelectorAll('.card');
