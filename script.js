@@ -101,6 +101,7 @@ header.addEventListener("dblclick", function () {
 ---> Je selectionne le lien de mon bootstrap par son attribut stylesheet
 ---> Je selectionne la zone ou je souhaite que l'action s'effectue, et je la stocke dans une variable
 ---> On applique l'eventListener sur un doubleclick sur le header
----> 
+---> Si bootstraplink existe, alors...
+---> Bascule l'état du lien entre activé et désactivé avec bootstrapLink.disabled = !bootstrapLink.disabled;
 
 */
