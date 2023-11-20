@@ -95,3 +95,10 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 > | card [`élément sélectionné par index`] | action [`mouseout`] |
 > | ------ | ----- |
 > | Annulations | - La carte reprendra sa taille d'origine (100%).<br>- L'image reprendra sa taille d'origine.<br>- L'opacité du texte sera rétablie à 1, le rendant visible. |
+
+---
+
+<div align="center">
+  <img src="michael-jackson-dance.gif" alt="Enjoy!" width="200"/>
+  <h1>Enjoy!</h1>
+</div>
