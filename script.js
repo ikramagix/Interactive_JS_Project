@@ -1,4 +1,4 @@
-////////////////////////////////////F1////////////////////////////////////
+//F1
 
 const footer = document.querySelector("footer");
 let countMyClicks = 0;
@@ -8,8 +8,7 @@ footer.addEventListener("click", function () {
   console.log("Tu critiques mais t'as cliqué " + countMyClicks + " fois !");
 });
 
-////////////////////////////////////F2////////////////////////////////////
-
+//F2
 
 const menuBtn = document.querySelector(".navbar-toggler");
 const navHead = document.getElementById("navbarHeader");
@@ -19,7 +18,7 @@ menuBtn.addEventListener("click", function () {
 });
 
 
-////////////////////////////////////F3////////////////////////////////////
+//F3
 
 const firstCard = document.querySelectorAll(".card")[0];
 
@@ -30,8 +29,7 @@ editBtnFirst.addEventListener("click", function () {
 });
 
 
-////////////////////////////////////F4////////////////////////////////////
-//Green Washing
+//F4
 
 const secondCard = document.querySelectorAll(".card")[1];
 const editBtnSecond = document.querySelectorAll(".btn-outline-secondary")[1];
@@ -44,7 +42,7 @@ editBtnSecond.addEventListener("click", function () {
   }
 });
 
-////////////////////////////////////F5////////////////////////////////////
+//F5
 
 const bootstrapLink = document.querySelector('head link[rel="stylesheet"]');
 const header = document.querySelector('header');
@@ -55,7 +53,7 @@ header.addEventListener("dblclick", function () {
     }
 });
 
-////////////////////////////////////F6////////////////////////////////////
+//F6
 
 const viewButtons = document.querySelectorAll('.btn-success');
 const cards = document.querySelectorAll('.card');
@@ -74,28 +72,3 @@ viewButtons.forEach((button, index) => {
     cards[index].querySelector('.card-text').style.opacity = '1'; 
   });
 });
-
-/* Mais dis donc Jamy, que fais-tu exactement ?
-
----> Sélectionne tous les boutons avec la classe "btn-success", les stocke dans la variable.
----> Pareil, mais pour les cards. 
----> On lance une boucle, avec button et index comme paramètres
----> Sur chaque itération de button, on écoutera l'event mouseover (survol du curseur) et on appliquera :
-
---------------------card [selectionnée par index]--------------------
------------------------------'mouseover'-----------------------------
-
------------| sera redimensionné à 80%
------------| image sera redimensionnée à 20%
------------| transition d'animation sera d'une durée de 0.5s
------------| opacité du texte sera 0 = invisible
-
---------------------card [selectionnée par index]--------------------
------------------------------'mouseout'------------------------------
-
------------| reprendra sa taille d'origine (1)
------------| image reprendra sa taille d'origine
------------| opacité du texte sera 1 = visible
-
-
-*/
