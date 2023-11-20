@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="michael-jackson-dance.gif" alt="Dance" width="400px"/>
+  <img src="michael-jackson-dance.gif" alt="Dance" width="500px"/>
   <h1>Just... read it, read it, read it, read it... ♪ </h1>
 </div>
 
