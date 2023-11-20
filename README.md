@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="michael-jackson-dance.gif" alt="Dance" width="300px"/>
-  <h1>Just.. read it, read it, read it, read it... ♪ </h1>
+  <img src="michael-jackson-dance.gif" alt="Dance" width="400px"/>
+  <h1>Just... read it, read it, read it, read it... ♪ </h1>
 </div>
 
 ## Introduction : mise en pratique sur Javascript
