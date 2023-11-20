@@ -1,4 +1,4 @@
-# Projet Interactive JS : Mise en pratique 
+# Interactive JS : Mise en pratique 
 
 ## Introduction
 
@@ -14,7 +14,7 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 
 > *Mais dis donc Jamy, que fais-tu exactement ?*
 
-> ---> On selectionne le footer.<br>
+> ---> On séléctionne le footer.<br>
 > ---> On initie le compteur de clics. <br>
 > ---> On incrémente à chaque event (click).<br>
 > ---> On affiche le résultat en console (console.log).<br>
@@ -29,9 +29,7 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 > navHead a la classe ("collapse") ? <br>
 > ---> classe supprimée (= menu caché) <br>
 > navHead n'a pas la classe ("collapse") ? <br>
-> ---> classe ajoutée (= menu affiché) <br>
-
-> ----> Chaque fois que le bouton est cliqué, la fonction est déclenchée
+> ---> classe ajoutée (= menu affiché)
 
 ### 3. REDit button
 
@@ -54,7 +52,7 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 > ---> Même démarche qu'avant avec index[] pour la selection<br>
 > --> On lie l'event click a une fonction qui va s'executer au click (le changement de couleur)<br>
 
-> *Mais dis donc Jamy, que pourquoi un "" vide ?*
+> *Mais dis donc Jamy, pourquoi un "" vide ?*
 
 > ---> Une fois event click :<br>
 > ---> Verifie si la couleur est "green" ? <br>
@@ -81,3 +79,13 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 - Un effet de transition est appliqué, et le texte des cartes disparaît et réapparaît également.
 
 > *Mais dis donc Jamy, que fais-tu exactement ?*
+
+> ---> Sélectionne tous les boutons avec la classe "btn-success", les stocke dans la variable.<br>
+> ---> Pareil, mais pour les cards. <br>
+> ---> On lance une boucle, avec button et index comme paramètres. <br>
+> ---> Sur chaque itération de button, on écoutera l'event mouseover (survol du curseur) et on appliquera :
+
+> | Action | Effet |
+> | ------ | ----- |
+> | Card sélectionnée par index (mouseover) | - La carte sera redimensionnée à 80%.<br>- L'image sera redimensionnée à 20%.<br>- Une transition d'animation d'une durée de 0.5s sera appliquée.<br>- L'opacité du texte sera réduite à 0, le rendant invisible. |
+> | Card sélectionnée par index (mouseout) | - La carte reprendra sa taille d'origine (100%).<br>- L'image reprendra sa taille d'origine.<br>- L'opacité du texte sera rétablie à 1, le rendant visible. |
