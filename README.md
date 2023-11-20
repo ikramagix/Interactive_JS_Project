@@ -82,16 +82,16 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 
 > ---> Sélectionne tous les boutons avec la classe "btn-success", les stocke dans la variable.<br>
 > ---> Pareil, mais pour les cards. <br>
-> ---> On lance une boucle, avec button et index comme paramètres. <hr>
+> ---> On lance une boucle, avec button et index comme paramètres. <br>
 
-> Sur chaque itération de button, on écoutera l'event (survol du curseur) et on appliquera au choix :
+> Sur chaque itération, on écoutera l'event (survol du curseur) et selon :
 
->
-> | card [`élément sélectionné par index`] | action [`mouseover`] |
-> | ------ | ----- |
-> | Modifications | - La carte sera redimensionnée à 80%.<br>- L'image sera redimensionnée à 20%.<br>- Une transition d'animation d'une durée de 0.5s sera appliquée.<br>- L'opacité du texte sera réduite à 0, le rendant invisible. |
-> 
-> 
-> | card [`élément sélectionné par index`] | action [`mouseout`] |
-> | ------ | ----- |
-> | Annulations | - La carte reprendra sa taille d'origine (100%).<br>- L'image reprendra sa taille d'origine.<br>- L'opacité du texte sera rétablie à 1, le rendant visible. |
+
+| card [`élément sélectionné par index`] | action [`mouseover`] |
+| ------ | ----- |
+| Modifications | - La carte sera redimensionnée à 80%.<br>- L'image sera redimensionnée à 20%.<br>- Une transition d'animation d'une durée de 0.5s sera appliquée.<br>- L'opacité du texte sera réduite à 0, le rendant invisible. |
+
+
+| card [`élément sélectionné par index`] | action [`mouseout`] |
+| ------ | ----- |
+| Annulations | - La carte reprendra sa taille d'origine (100%).<br>- L'image reprendra sa taille d'origine.<br>- L'opacité du texte sera rétablie à 1, le rendant visible. |
