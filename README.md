@@ -85,7 +85,17 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 > ---> On lance une boucle, avec button et index comme paramètres. <br>
 > ---> Sur chaque itération de button, on écoutera l'event mouseover (survol du curseur) et on appliquera :
 
-> | Action | Effet |
-> | ------ | ----- |
-> | Card sélectionnée par index (mouseover) | - La carte sera redimensionnée à 80%.<br>- L'image sera redimensionnée à 20%.<br>- Une transition d'animation d'une durée de 0.5s sera appliquée.<br>- L'opacité du texte sera réduite à 0, le rendant invisible. |
-> | Card sélectionnée par index (mouseout) | - La carte reprendra sa taille d'origine (100%).<br>- L'image reprendra sa taille d'origine.<br>- L'opacité du texte sera rétablie à 1, le rendant visible. |
+> --------------------card [sélectionnée par index]--------------------
+> -----------------------------'mouseover'-----------------------------
+> 
+> -----------| sera redimensionnée à 80%
+> -----------| image sera redimensionnée à 20%
+> -----------| transition d'animation sera d'une durée de 0.5s
+> -----------| opacité du texte sera 0 = invisible
+> 
+> --------------------card [sélectionnée par index]--------------------
+> -----------------------------'mouseout'------------------------------
+> 
+> -----------| reprendra sa taille d'origine (100%)
+> -----------| image reprendra sa taille d'origine
+> -----------| opacité du texte sera 1 = visible
