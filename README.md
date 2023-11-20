@@ -87,7 +87,7 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 > Sur chaque itération de button, on écoutera l'event (survol du curseur) et on appliquera au choix :
 
 >
-> | card [sélectionnée par index] | 'mouseover' |
+> | card [élément sélectionné par index] | action [`mouseover`] |
 > | ------ | ----- |
 > | Modifications | - La carte sera redimensionnée à 80%.<br>- L'image sera redimensionnée à 20%.<br>- Une transition d'animation d'une durée de 0.5s sera appliquée.<br>- L'opacité du texte sera réduite à 0, le rendant invisible. |
 > 
