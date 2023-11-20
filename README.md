@@ -103,5 +103,5 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 
 <div align="center">
   <img src="michael-jackson-dance.gif" alt="Dance" width="200px"/>
-  <h3>Ooh!</h3>
+  <h3>C'est tout. Oui, je me suis amusée à le faire. Non, je ne suis pas fan de Michael Jackson.</h3>
 </div>
