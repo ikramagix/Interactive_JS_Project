@@ -39,17 +39,47 @@ navHead n'a pas la classe ("collapse") ? ---> classe ajoutée (= menu affiché)
 ////////////////////////////////////F3////////////////////////////////////
 //REDit BUTTON
 
-const firstCard = document.querySelectorAll('.card')[0];
+const firstCard = document.querySelectorAll(".card")[0];
 
-let editBtn = document.querySelectorAll('.btn-outline-secondary')[0];
+let editBtnFirst = document.querySelectorAll(".btn-outline-secondary")[0];
 
-editBtn.addEventListener("click", function () {
+editBtnFirst.addEventListener("click", function () {
   firstCard.style.color = "red";
 });
 
 /* Mais dis donc Jamy, que fais-tu exactement ?
 
----> On séléctionne la card et le bouton correspondant avec leurs classes respectives
+---> On séléctionne la card et le bouton correspondant avec leurs classes et index respectifs
 ---> On lie l'event click sur le editBtn à une modification de la couleur du texte sur firstCard
+---> Pas de possibilité d'annuler le changement car pas de conditions comme en bas (if/else)
+
+*/
+
+////////////////////////////////////F4////////////////////////////////////
+//Green Washing
+
+const secondCard = document.querySelectorAll(".card")[1];
+const editBtnSecond = document.querySelectorAll(".btn-outline-secondary")[1];
+
+editBtnSecond.addEventListener("click", function () {
+  if (secondCard.style.color === "green") {
+    secondCard.style.color = "";
+  } else {
+    secondCard.style.color = "green";
+  }
+});
+
+/* Mais dis donc Jamy, que fais-tu exactement ?
+
+---> Même démarche qu'avant avec index[] pour la selection
+---> On lie l'event click a une fonction qui va s'executer au click
+*/
+
+/* Mais dis donc Jamy, que pourquoi un "" vide ?
+
+---> Une fois event click :
+---> Verifie si la couleur est "green" ?
+---> Si oui, ("") réinitialise la couleur du texte à la couleur par défaut (du CSS ou du browser)
+---> Si non, définit la couleur en "green"
 
 */
