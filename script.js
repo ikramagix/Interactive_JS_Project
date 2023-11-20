@@ -39,9 +39,9 @@ navHead n'a pas la classe ("collapse") ? ---> classe ajoutée (= menu affiché)
 ////////////////////////////////////F3////////////////////////////////////
 //REDit BUTTON
 
-const firstCard = document.querySelector(".col-md-4 .card");
+const firstCard = document.querySelectorAll('.card')[0];
 
-let editBtn = document.querySelector(".btn-outline-secondary");
+let editBtn = document.querySelectorAll('.btn-outline-secondary')[0];
 
 editBtn.addEventListener("click", function () {
   firstCard.style.color = "red";
