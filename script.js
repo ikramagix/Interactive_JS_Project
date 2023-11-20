@@ -9,6 +9,16 @@ footer.addEventListener("click", function () {
   console.log("Tu critiques mais t'as cliqué " + countMyClicks + " fois !");
 });
 
+/* Mais dis donc Jamy, que fais-tu exactement ? 
+
+---> On selectionne le footer.
+---> On initie le compteur de clics.
+---> On incrémente à chaque event (click).
+---> On affiche le résultat en console (console.log).
+
+*/
+
+
 ////////////////////////////////////F2////////////////////////////////////
 //TOGGLE MENU
 
