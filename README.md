@@ -32,3 +32,52 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 > ---> classe ajoutée (= menu affiché) <br>
 
 > ----> Chaque fois que le bouton est cliqué, la fonction est déclenchée
+
+### 3. REDit button
+
+- Utilisation de `style.color` pour changer la couleur du texte.
+- Quand tu cliques sur le bouton *edit* de la première card, il devient et reste rouge.
+
+> *Mais dis donc Jamy, que fais-tu exactement ?*
+
+> ---> On séléctionne la card et le bouton correspondant avec leurs classes et index respectifs <br>
+> ---> On lie l'event click sur le editBtn à une modification de la couleur du texte sur firstCard <br>
+> ---> Pas de possibilité d'annuler le changement car pas de conditions comme ici bas (if/else)
+
+### 4. Green Green Green Washing!
+
+- Utilisation de `style.color` et une alternance soumise à condition.
+- Quand tu cliques sur le bouton *edit* de la deuxième card, il devient vert, si tu recliques, il reprend sa couleur d'origine.
+
+> *Mais dis donc Jamy, que fais-tu exactement ?*
+
+> ---> Même démarche qu'avant avec index[] pour la selection<br>
+> --> On lie l'event click a une fonction qui va s'executer au click (le changement de couleur)<br>
+
+> *Mais dis donc Jamy, que pourquoi un "" vide ?*
+
+> ---> Une fois event click :<br>
+> ---> Verifie si la couleur est "green" ? <br>
+> ---> Si oui, ("") réinitialise la couleur du texte à la couleur par défaut (du CSS ou du browser)<br>
+> ---> Si non, définit la couleur en "green"
+
+### 5. Boot-Strip
+
+- Utilisation de `addEventListener` avec `dblclick`.
+- Au double-clic sur la navbar, le lien vers Bootstrap est désactivé ou réactivé.
+
+> *Mais dis donc Jamy, que fais-tu exactement ?*
+
+> ---> Je sélectionne le lien de mon Bootstrap par son attribut `stylesheet`.<br>
+> ---> Je sélectionne la zone où je souhaite que l'action s'effectue (le header), et je la stocke dans une variable.<br>
+> ---> On applique l'eventListener sur un doubleclick sur le header.<br>
+> ---> Si bootstraplink existe, alors...<br>
+> ---> Bascule l'état du lien entre activé et désactivé avec bootstrapLink.disabled = !bootstrapLink.disabled;
+
+### 6. Cards kaléidoscopiques
+
+- Utilisation de `style.transform`, `style.transition`, et `style.opacity` avec `mouseover` et `mouseout`
+- En passant le curseur de la souris sur le bouton *view*, la taille des cards et des images diminue (20% pour les cards, 80% pour les images). 
+- Un effet de transition est appliqué, et le texte des cartes disparaît et réapparaît également.
+
+> *Mais dis donc Jamy, que fais-tu exactement ?*
