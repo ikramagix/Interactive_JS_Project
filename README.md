@@ -14,9 +14,9 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 
 > Mais dis donc Jamy, que fais-tu exactement ? 
 
----> On selectionne le footer.
----> On initie le compteur de clics.
----> On incrémente à chaque event (click).
----> On affiche le résultat en console (console.log).
+> ---> On selectionne le footer.
+> ---> On initie le compteur de clics.
+> ---> On incrémente à chaque event (click).
+> ---> On affiche le résultat en console (console.log).
 
-### 2. Toggle Toggle Toggle by Json Derulo
+### 2. Toggle Toggle Toggle by Json Dercodo
