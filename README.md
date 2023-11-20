@@ -1,9 +1,9 @@
 <div align="center">
   <img src="michael-jackson-dance.gif" alt="Dance" width="300px"/>
-  <h1>Read it! Read it! Read it! Read it!</h1>
+  <h1>Just.. read it, read it, read it, read it... ♪ </h1>
 </div>
 
-## Introduction
+## Introduction : mise en pratique sur Javascript
 
 Ce repository contient des exercices JavaScript et des exemples de manipulation du DOM pour développer des fonctionnalités spécifiques sur une page HTML.
 
@@ -102,6 +102,6 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 ---
 
 <div align="center">
-  <img src="michael-jackson-dance.gif" alt="Dance" width="300px"/>
-  <h1>Read it! Read it! Read it! Read it!</h1>
+  <img src="michael-jackson-dance.gif" alt="Dance" width="200px"/>
+  <h3>Ooh!</h3>
 </div>
