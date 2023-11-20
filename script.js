@@ -105,3 +105,46 @@ header.addEventListener("dblclick", function () {
 ---> Bascule l'état du lien entre activé et désactivé avec bootstrapLink.disabled = !bootstrapLink.disabled;
 
 */
+
+const viewButtons = document.querySelectorAll('.btn-success');
+const cards = document.querySelectorAll('.card');
+
+viewButtons.forEach((button, index) => {
+  button.addEventListener('mouseover', function () {
+    cards[index].style.transform = 'scale(0.8)';
+    cards[index].querySelector('.card-img-top').style.transform = 'scale(0.2)';
+    cards[index].style.transition = 'transform 0.5s ease';
+    cards[index].querySelector('.card-text').style.opacity = '0';
+  });
+
+  button.addEventListener('mouseout', function () {
+    cards[index].style.transform = 'scale(1)';
+    cards[index].querySelector('.card-img-top').style.transform = 'scale(1)';
+    cards[index].querySelector('.card-text').style.opacity = '1'; 
+  });
+});
+
+/* Mais dis donc Jamy, que fais-tu exactement ?
+
+---> Sélectionne tous les boutons avec la classe "btn-success", les stocke dans la variable.
+---> Pareil, mais pour les cards. 
+---> On lance une boucle, avec button et index comme paramètres
+---> Sur chaque itération de button, on écoutera l'event mouseover (survol du curseur) et on appliquera :
+
+--------------------card [selectionnée par index]--------------------
+-----------------------------'mouseover'-----------------------------
+
+-----------| sera redimensionné à 80%
+-----------| image sera redimensionnée à 20%
+-----------| transition d'animation sera d'une durée de 0.5s
+-----------| opacité du texte sera 0 = invisible
+
+--------------------card [selectionnée par index]--------------------
+-----------------------------'mouseout'------------------------------
+
+-----------| reprendra sa taille d'origine (1)
+-----------| image reprendra sa taille d'origine
+-----------| opacité du texte sera 1 = visible
+
+
+*/
