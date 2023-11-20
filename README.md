@@ -15,7 +15,7 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 - Quand tu cliques sur le footer, un message avec le décompte s'affiche en console.
 
 
-> *Mais dis donc Jamy, que fais-tu exactement ?*
+> *Mais dis donc Miki, que fais-tu exactement ?*
 
 > ---> On séléctionne le footer.<br>
 > ---> On initie le compteur de clics. <br>
@@ -27,7 +27,7 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 - Utilisation de `classList.toggle` pour le toggle.
 - Quand tu cliques sur le menu hamburger (les trois lignes), la classe "collapse" est ajoutée ou supprimée de l'élément avec l'ID "navbarHeader".
 
-> *Mais dis donc Jamy, que fait .toggle exactement ?*
+> *Mais dis donc Miki, que fait .toggle exactement ?*
 
 > navHead a la classe ("collapse") ? <br>
 > ---> classe supprimée (= menu caché) <br>
@@ -39,7 +39,7 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 - Utilisation de `style.color` pour changer la couleur du texte.
 - Quand tu cliques sur le bouton *edit* de la première card, il devient et reste rouge.
 
-> *Mais dis donc Jamy, que fais-tu exactement ?*
+> *Mais dis donc Miki, que fais-tu exactement ?*
 
 > ---> On séléctionne la card et le bouton correspondant avec leurs classes et index respectifs <br>
 > ---> On lie l'event click sur le editBtn à une modification de la couleur du texte sur firstCard <br>
@@ -50,12 +50,12 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 - Utilisation de `style.color` et une alternance soumise à condition.
 - Quand tu cliques sur le bouton *edit* de la deuxième card, il devient vert, si tu recliques, il reprend sa couleur d'origine.
 
-> *Mais dis donc Jamy, que fais-tu exactement ?*
+> *Mais dis donc Miki, que fais-tu exactement ?*
 
 > ---> Même démarche qu'avant avec index[] pour la selection<br>
 > --> On lie l'event click a une fonction qui va s'executer au click (le changement de couleur)<br>
 
-> *Mais dis donc Jamy, pourquoi un "" vide ?*
+> *Mais dis donc Miki, pourquoi un "" vide ?*
 
 > ---> Une fois event click :<br>
 > ---> Verifie si la couleur est "green" ? <br>
@@ -67,7 +67,7 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 - Utilisation de `addEventListener` avec `dblclick`.
 - Au double-clic sur la navbar, le lien vers Bootstrap est désactivé ou réactivé.
 
-> *Mais dis donc Jamy, que fais-tu exactement ?*
+> *Mais dis donc Miki, que fais-tu exactement ?*
 
 > ---> Je sélectionne le lien de mon Bootstrap par son attribut `stylesheet`.<br>
 > ---> Je sélectionne la zone où je souhaite que l'action s'effectue (le header), et je la stocke dans une variable.<br>
@@ -81,7 +81,7 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 - En passant le curseur de la souris sur le bouton *view*, la taille des cards et des images diminue (20% pour les cards, 80% pour les images). 
 - Un effet de transition est appliqué, et le texte des cartes disparaît et réapparaît également.
 
-> *Mais dis donc Jamy, que fais-tu exactement ?*
+> *Mais dis donc Miki, que fais-tu exactement ?*
 
 > ---> Sélectionne tous les boutons avec la classe "btn-success", les stocke dans la variable.<br>
 > ---> Pareil, mais pour les cards. <br>
