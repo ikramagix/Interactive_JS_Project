@@ -86,7 +86,6 @@ Ce repository contient des exercices JavaScript et des exemples de manipulation 
 > ---> Sélectionne tous les boutons avec la classe "btn-success", les stocke dans la variable.<br>
 > ---> Pareil, mais pour les cards. <br>
 > ---> On lance une boucle, avec button et index comme paramètres. <br>
-> ---> card [`élément sélectionné par index`] et action ensuite
 
 > On écoutera l'event (survol du curseur) et selon le mouvement :
 
